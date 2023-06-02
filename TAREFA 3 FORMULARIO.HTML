@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO INPUT</title>
+</head>
+<body>
+   <form>
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" placeholder="Digite seu nome aqui..." required="true"/> 
+    <!-- placeholder mostra a frase a seguir, transparente -->
+    <!-- maxlength é usado para delimitar a quantidades de caracteres limite que eu posso ta usando no techo -->
+    <p></p>
+    <label for="email">E-mail</label>
+    <input type="email" id="email" placeholder="Digite seu email aqui..."required="true"/> 
+    <p></p>
+
+    <button type="submit">Cadastrar</button> 
+    <p></p>
+   <div1>
+    <label for="msg">O que te motivou a participar do evento?:</label><br>
+    <textarea id="msg"></textarea>
+   <div1 >
+
+   </div> 
+    <br>
+    <label for="modulo">Selecione seu modulo:</label><br>
+    <select name="modulos" id="modulo">
+     <option value="">--Escolher modulo</option>   
+     <option value="1">Modulo 1</option>
+     <option value="2">Modulo 2</option>
+    </select>
+   </div> 
+<div>
+    <p></p>
+    <label for="senha">Senha</label>
+    <input type="password" name="" id="senha" placeholder="Digite sua senha">
+    <br>
+    <label for="senha2">Confirmar Senha</label>
+    <input type="password" name="" id="senha2" placeholder="Confirme sua senha">
+    <p></p>
+    <label for="text">Deseja receber novidades em seu email?</label>
+    <br>
+    <input type="radio" name="sim" id="sim" required="true">
+    <label for="sim">Sim</label>
+
+    <input type="radio" name="nao" id="nao">
+    <label for="nao">Não</label>
+    <p></p>
+    <button required="true">Cadastrar</button>
+
+</div>
+</form>
+</body>
+</html>
